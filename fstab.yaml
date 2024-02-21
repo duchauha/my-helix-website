@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1umYJZMgorAHG-7xS0Hp7rApTxeBBc1Jp
+  /:
+    url: https://author-p96415-e882660.adobeaemcloud.com/content/wknd/us/en
+    type: markup
+    suffix: ".franklin.html?wcmmode=disabled"
