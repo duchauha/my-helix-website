@@ -14,6 +14,11 @@
 
 .cards .cards-card-body {
   margin: 16px;
+  background-color:black
+}
+
+.cards .cards-card-body p {
+  color:white
 }
 
 .cards .cards-card-image {
