@@ -31,3 +31,7 @@ indices:
         select: head > meta[name="robots"]
         value: |
           attribute(el, 'content')
+      customprop:
+        select: head > meta[name="customprop"]
+        value: |
+          attribute(el, 'content')
