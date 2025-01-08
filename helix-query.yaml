@@ -9,6 +9,7 @@ indices:
       - '/.helix/**'
       - '/components/**'
       - '/testing/**'
+      - '/products/**'
     target: '/query-index'
     properties:
       title:
@@ -39,7 +40,7 @@ indices:
   docpages:
     target: /docpages-index
     include:
-      - /testing/**
+      - '/products/**'
     properties:
       title:
         select: head > meta[property="og:title"]
